@@ -5871,7 +5871,7 @@
 	)
 	(text "how to add easyeda parts :\neasyeda2kicad --full --lcsc_id=(for example)C475222\nit will add it to \n/home/orkiman/Documents/Kicad/easyeda2kicad/"
 		(exclude_from_sim no)
-		(at 191.262 -23.114 0)
+		(at 188.214 -21.59 0)
 		(effects
 			(font
 				(size 5.08 5.08)
