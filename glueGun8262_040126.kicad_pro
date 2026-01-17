@@ -469,28 +469,23 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 47,
+        "clearance": 0.25,
         "line_style": 0,
         "name": "high_power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.2,
-        "wire_width": 16
-      },
-      {
-        "bus_width": 20,
-        "name": "logic_power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "wire_width": 8
+        "track_width": 1.2,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 16
       }
     ],
     "meta": {
@@ -561,8 +556,16 @@
     },
     "netclass_patterns": [
       {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
         "netclass": "high_power",
-        "pattern": "GND"
+        "pattern": "*OUT*"
+      },
+      {
+        "netclass": "high_power",
+        "pattern": "+48V"
       }
     ]
   },
