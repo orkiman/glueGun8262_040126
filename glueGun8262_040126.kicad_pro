@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -555,6 +555,12 @@
         "high_power"
       ],
       "Net-(CN5-Pad2)": [
+        "high_power"
+      ],
+      "Net-(D11-K)": [
+        "logic_power"
+      ],
+      "Net-(Q1-D)": [
         "high_power"
       ],
       "Net-(U10-IN-)": [
