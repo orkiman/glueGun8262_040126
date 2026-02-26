@@ -11,4 +11,4 @@ _autosave-*
 # Manufacturing files (Optional: keep if you want to track versions of gerbers)
 *.gbr
 *.drl
-*.pdf
+*.pdf#auto_saved_files#
