@@ -1404,182 +1404,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky_AKK"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky_AKK"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode, cathode on pins 2 and 3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky SCHDPAK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_AKK_0_1"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_AKK_1_1"
-				(pin passive line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -7317,10 +7141,6 @@
 		(uuid "1e5285b6-0eaa-45a7-a443-72f052c208d7")
 	)
 	(no_connect
-		(at 344.17 167.64)
-		(uuid "220d7fdd-9ad2-474c-a773-ae8a66361d06")
-	)
-	(no_connect
 		(at 370.84 97.79)
 		(uuid "233f3fd6-1720-4ab4-bf90-937541996c9f")
 	)
@@ -7381,10 +7201,6 @@
 		(uuid "7929874a-221a-4ac9-81e0-07c92043b9b7")
 	)
 	(no_connect
-		(at 207.01 245.11)
-		(uuid "7e4bff93-ba9e-486d-8fb3-01396324016f")
-	)
-	(no_connect
 		(at 69.85 82.55)
 		(uuid "7f7d941f-06f0-4220-b638-068fed76be87")
 	)
@@ -7431,6 +7247,10 @@
 	(no_connect
 		(at 71.12 214.63)
 		(uuid "b005c2a3-9ab7-471a-adb6-50b5db2ef6cd")
+	)
+	(no_connect
+		(at 207.01 245.11)
+		(uuid "b6b6b95c-5d6a-45a9-9e5d-0407dd89eb5d")
 	)
 	(no_connect
 		(at 370.84 120.65)
@@ -7768,7 +7588,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 170.18) (xy 332.74 170.18)
+			(xy 331.47 170.18) (xy 334.01 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8555,6 +8375,16 @@
 			(type default)
 		)
 		(uuid "5bcb40a0-6945-428f-92f4-297a3cbd8df7")
+	)
+	(wire
+		(pts
+			(xy 341.63 170.18) (xy 345.44 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c895e0b-e1ee-4ac1-a6df-619df4a01bda")
 	)
 	(wire
 		(pts
@@ -10005,16 +9835,6 @@
 			(type default)
 		)
 		(uuid "bd5e4ad0-2bfd-485f-8927-d2b03c1c0ed9")
-	)
-	(wire
-		(pts
-			(xy 344.17 170.18) (xy 345.44 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdd0d6d8-4947-46ff-8473-d77ffb8bdbeb")
 	)
 	(wire
 		(pts
@@ -11861,6 +11681,37 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 377.19 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dd3b0fc-6f53-492b-b0b2-0151d0e1c979")
+		(property "Netclass" "power"
+			(at 377.8885 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -59.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 180.34 31.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12405,6 +12256,73 @@
 			(project ""
 				(path "/4fd28305-f7d1-491b-a596-a41f4e63ad71"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 207.01 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e84cbaa-a8d2-420f-9153-3dbe06572b4b")
+		(property "Reference" "H1"
+			(at 209.55 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 209.55 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 207.01 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 207.01 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0b7e43a-6213-44e2-b693-504ff82c6330")
+		)
+		(instances
+			(project "glueGun8262_040126"
+				(path "/4fd28305-f7d1-491b-a596-a41f4e63ad71"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -17495,7 +17413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_AKK")
+		(lib_id "Device:D_Schottky")
 		(at 337.82 170.18 0)
 		(mirror y)
 		(unit 1)
@@ -17503,25 +17421,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "915134cc-bd80-420c-b2a6-3e2e47500713")
 		(property "Reference" "D1"
-			(at 339.09 162.56 0)
+			(at 338.1375 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D_Schottky_AKK"
-			(at 339.09 165.1 0)
+		(property "Value" "reverse protection"
+			(at 338.328 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 337.82 170.18 0)
 			(effects
 				(font
@@ -17539,7 +17456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode, cathode on pins 2 and 3"
+		(property "Description" "Schottky diode"
 			(at 337.82 170.18 0)
 			(effects
 				(font
@@ -17559,9 +17476,6 @@
 		)
 		(pin "2"
 			(uuid "44c8ed80-44ce-458b-8f1a-683417648656")
-		)
-		(pin "3"
-			(uuid "8fad616c-72b1-420c-9919-8eb5615d1196")
 		)
 		(pin "1"
 			(uuid "c6eefc9a-8f8f-4f5a-8a89-989f899b3f80")
@@ -20088,73 +20002,6 @@
 			(project "glueGun8262_040126"
 				(path "/4fd28305-f7d1-491b-a596-a41f4e63ad71"
 					(reference "CN5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 207.01 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db47dee8-edb8-4b90-9f02-834603064836")
-		(property "Reference" "H1"
-			(at 209.55 240.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 209.55 242.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 207.01 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 207.01 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80c6b98e-ac74-4faa-acd0-f25821143664")
-		)
-		(instances
-			(project ""
-				(path "/4fd28305-f7d1-491b-a596-a41f4e63ad71"
-					(reference "H1")
 					(unit 1)
 				)
 			)
