@@ -14604,7 +14604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "100nf 50v"
 			(at 104.14 173.9899 0)
 			(effects
 				(font
@@ -14640,7 +14640,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C14663"
 			(at 100.33 172.72 0)
 			(effects
 				(font
@@ -15119,7 +15119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uf 16v"
+		(property "Value" "22uf 25v"
 			(at 344.424 40.132 0)
 			(effects
 				(font
@@ -15164,7 +15164,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C12891"
 			(at 356.87 39.37 0)
 			(effects
 				(font
@@ -15662,7 +15662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 240.03 94.2848 0)
 			(effects
 				(font
@@ -15707,7 +15707,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C28233"
 			(at 236.22 95.25 90)
 			(effects
 				(font
@@ -16359,7 +16359,7 @@
 				)
 			)
 		)
-		(property "Value" "1uf 16v"
+		(property "Value" "1uf 50v"
 			(at 161.29 87.63 90)
 			(effects
 				(font
@@ -16403,7 +16403,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C15849"
 			(at 161.29 92.71 90)
 			(effects
 				(font
@@ -16510,7 +16510,7 @@
 				)
 			)
 		)
-		(property "Value" "1uf 16v"
+		(property "Value" "1uf 50v"
 			(at 161.29 170.18 90)
 			(effects
 				(font
@@ -16554,7 +16554,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C15849"
 			(at 161.29 175.26 90)
 			(effects
 				(font
@@ -18366,7 +18366,7 @@
 				)
 			)
 		)
-		(property "Value" "1uf 16v"
+		(property "Value" "1uf 50v"
 			(at 262.89 223.52 90)
 			(effects
 				(font
@@ -18410,7 +18410,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C15849"
 			(at 262.89 228.6 90)
 			(effects
 				(font
@@ -19446,7 +19446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "100nf 50v"
 			(at 104.14 85.0899 0)
 			(effects
 				(font
@@ -19482,7 +19482,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C14663"
 			(at 100.33 83.82 0)
 			(effects
 				(font
@@ -19824,7 +19824,7 @@
 				)
 			)
 		)
-		(property "Value" "100nf 10v"
+		(property "Value" "100nf 50v"
 			(at 270.51 138.43 90)
 			(effects
 				(font
@@ -19877,7 +19877,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C14663"
 			(at 270.51 143.51 90)
 			(effects
 				(font
@@ -20625,7 +20625,7 @@
 				)
 			)
 		)
-		(property "Value" "100nf 10v"
+		(property "Value" "100nf 50v"
 			(at 270.51 220.98 90)
 			(effects
 				(font
@@ -20678,7 +20678,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C14663"
 			(at 270.51 226.06 90)
 			(effects
 				(font
@@ -21915,7 +21915,7 @@
 				)
 			)
 		)
-		(property "Value" "1uf 16v"
+		(property "Value" "1uf 50v"
 			(at 262.89 140.97 90)
 			(effects
 				(font
@@ -21959,7 +21959,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C15849"
 			(at 262.89 146.05 90)
 			(effects
 				(font
@@ -22008,7 +22008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 240.03 176.8348 0)
 			(effects
 				(font
@@ -22053,7 +22053,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C28233"
 			(at 236.22 177.8 90)
 			(effects
 				(font
@@ -22214,7 +22214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "100nf 50v"
 			(at 105.41 217.1699 0)
 			(effects
 				(font
@@ -22250,7 +22250,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C14663"
 			(at 101.6 215.9 0)
 			(effects
 				(font
@@ -22586,7 +22586,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "100nf 50v"
 			(at 104.14 128.2699 0)
 			(effects
 				(font
@@ -22622,7 +22622,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C14663"
 			(at 100.33 127 0)
 			(effects
 				(font
@@ -22788,7 +22788,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" ""
+		(property "LCSC part" "C13585"
 			(at 334.01 29.21 0)
 			(effects
 				(font
