@@ -6835,6 +6835,12 @@
 		(uuid "4b4ff6c9-7c47-4be1-8cdf-a5eb6958240a")
 	)
 	(junction
+		(at 382.27 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5073be8d-8e48-43c7-8008-15cf195eb1b7")
+	)
+	(junction
 		(at 165.1 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6929,6 +6935,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b50a8c4-cc29-4fc6-be87-a6b62edb24a7")
+	)
+	(junction
+		(at 356.87 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8de5ee52-827b-47c4-bdfe-94d81e4c9ca1")
 	)
 	(junction
 		(at 100.33 176.53)
@@ -7495,6 +7507,16 @@
 			(type default)
 		)
 		(uuid "1837a46c-c6e2-4dfb-a07c-6efe30fcdd13")
+	)
+	(wire
+		(pts
+			(xy 356.87 48.26) (xy 356.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183f2545-abb2-47fa-b291-7bae1d9ca2c9")
 	)
 	(wire
 		(pts
@@ -8118,6 +8140,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 48.26) (xy 369.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477ca581-3cc6-43dc-8b6b-b2b59334f328")
+	)
+	(wire
+		(pts
 			(xy 165.1 95.25) (xy 152.4 95.25)
 		)
 		(stroke
@@ -8165,6 +8197,16 @@
 			(type default)
 		)
 		(uuid "498464d1-eb60-467b-8dc3-76b625fcef4e")
+	)
+	(wire
+		(pts
+			(xy 382.27 48.26) (xy 377.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9ff80e-135a-4316-972b-966554500979")
 	)
 	(wire
 		(pts
@@ -8948,6 +8990,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 38.1) (xy 382.27 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5f2812-c96e-499b-b54a-b4461976c43e")
+	)
+	(wire
+		(pts
 			(xy 54.61 60.96) (xy 77.47 60.96)
 		)
 		(stroke
@@ -9588,6 +9640,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 45.72) (xy 382.27 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5150ce-dac2-41ff-a9fa-5ef06df6a2fe")
+	)
+	(wire
+		(pts
 			(xy 257.81 203.2) (xy 257.81 205.74)
 		)
 		(stroke
@@ -9755,6 +9817,16 @@
 			(type default)
 		)
 		(uuid "b8243932-4b5c-43ba-b10e-647056a94f87")
+	)
+	(wire
+		(pts
+			(xy 382.27 35.56) (xy 384.81 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b850d553-9a40-4a6c-b5d2-e1d75340d4ca")
 	)
 	(wire
 		(pts
@@ -10418,7 +10490,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 35.56) (xy 379.73 35.56)
+			(xy 379.73 35.56) (xy 382.27 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10508,7 +10580,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 43.18) (xy 356.87 44.45)
+			(xy 356.87 43.18) (xy 356.87 48.26)
 		)
 		(stroke
 			(width 0)
@@ -12772,6 +12844,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 382.27 41.91 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "142e4b7f-f589-4bc7-8a95-88cb986b580e")
+		(property "Reference" "D15"
+			(at 387.0325 42.545 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "blue power ON"
+			(at 389.89 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 382.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 382.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 382.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C2297"
+			(at 382.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e9f80b9-9b21-4312-8f0c-5b309ecdcb9c")
+		)
+		(pin "2"
+			(uuid "d0d26ac0-4aeb-4a59-97d5-0b742f70f356")
+		)
+		(instances
+			(project "glueGun8262_040126"
+				(path "/4fd28305-f7d1-491b-a596-a41f4e63ad71"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack04")
 		(at 393.7 217.17 270)
 		(unit 1)
@@ -15003,7 +15161,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 356.87 44.45 0)
+		(at 356.87 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15012,7 +15170,7 @@
 		(fields_autoplaced yes)
 		(uuid "539f6c3b-5809-46e1-ad37-53d0b77f4ecf")
 		(property "Reference" "#PWR042"
-			(at 356.87 50.8 0)
+			(at 356.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15021,7 +15179,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 356.87 49.53 0)
+			(at 356.87 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15029,7 +15187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 356.87 44.45 0)
+			(at 356.87 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15038,7 +15196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 44.45 0)
+			(at 356.87 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15047,7 +15205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 356.87 44.45 0)
+			(at 356.87 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15516,6 +15674,74 @@
 			(project ""
 				(path "/4fd28305-f7d1-491b-a596-a41f4e63ad71"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 373.38 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "606ce043-40ad-40f4-b378-306d3bef80af")
+		(property "Reference" "R9"
+			(at 373.38 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330r"
+			(at 373.38 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 373.38 46.482 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4993a517-d786-4f19-a4a3-efdbee0e6e24")
+		)
+		(pin "1"
+			(uuid "214726db-05da-43cb-acd0-c4f1a210448f")
+		)
+		(instances
+			(project "glueGun8262_040126"
+				(path "/4fd28305-f7d1-491b-a596-a41f4e63ad71"
+					(reference "R9")
 					(unit 1)
 				)
 			)
