@@ -6622,6 +6622,16 @@
 		)
 		(uuid "5fdc4706-12aa-4b2a-8de9-2279b353e628")
 	)
+	(text "todo : femail headers"
+		(exclude_from_sim no)
+		(at 207.772 325.374 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "62a7c5e1-c92e-4cf6-90f4-9586cbeb2433")
+	)
 	(text "reverse\nprotection"
 		(exclude_from_sim no)
 		(at 338.836 155.448 0)
