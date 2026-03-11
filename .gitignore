@@ -12,3 +12,12 @@ _autosave-*
 *.gbr
 *.drl
 *.pdf#auto_saved_files#
+
+# KiCad 9 specific & UI settings
+*.kicad_prl
+*.kicad_jobset
+
+# Simulation & Misc
+*.raw
+*.out
+memory-usage.txt
