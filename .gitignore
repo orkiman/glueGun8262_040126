@@ -12,7 +12,7 @@ _autosave-*
 *.gbr
 *.drl
 *.pdf
-#auto_saved_files#
+\#auto\_saved\_files\#
 
 # Editor & Linux temporary files
 .*
