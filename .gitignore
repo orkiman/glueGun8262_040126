@@ -12,3 +12,10 @@ _autosave-*
 *.gbr
 *.drl
 *.pdf#auto_saved_files#
+
+# Editor temporary files
+#...
+.*
+#*#
+*~
+*.swp
