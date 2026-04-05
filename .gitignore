@@ -8,14 +8,22 @@ fp-info-cache
 _autosave-*
 *.lck
 
-# Manufacturing files (Optional: keep if you want to track versions of gerbers)
+# Manufacturing files
 *.gbr
 *.drl
-*.pdf#auto_saved_files#
+*.pdf
+#auto_saved_files#
 
-# Editor temporary files
-#...
+# Editor & Linux temporary files
 .*
 #*#
 *~
 *.swp
+
+# KiCad 9 UI & Project Settings
+*.kicad_jobset
+
+# Simulation & Misc
+*.raw
+*.out
+memory-usage.txt
